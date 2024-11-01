@@ -1,0 +1,82 @@
+.ads-list{
+	margin: 10px;
+	padding: 10px;
+	clear: both;
+	background-color: #eee;
+
+}
+.ads-list-add{
+	border: 0px solid #ccc;
+	width: 530px;
+	height: 205px;
+	margin-left: 2px;
+	padding-left:: 2px;
+	background-color:white;
+
+}
+.adlist-tbl table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+.adlist-tbl tr:nth-child(even) {background-color: #f2f2f2;}
+.adlist-tbl th, .adlist-tbl td {
+    padding: 15px;
+    text-align: left;
+}
+.adlist-tbl th, .adlist-tbl td {
+    border-bottom: 1px solid #ddd;
+}
+.adlist-tbl th {
+    background-color: red;
+    color: white;
+}
+.video_section {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+span.skipBtn {
+    position: absolute;
+    bottom: 72px;
+    right: 10px;
+    background: #f00;
+    color: #fff;
+    padding: 3px 10px;
+    /*text-transform: uppercase;*/
+    border: solid 1px #fff;
+}
+body.fullScreen span.skipBtn {
+	z-index: 9999999999;
+	bottom:48px;
+}
+/*
+span.skipBtn {
+  display:none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}*/
+span.skipBtn.skipBtn1 {
+  cursor: pointer;
+  background-color: #333;
+}
+span.skipBtn.disabled {
+  background-color: #f00;
+  font-size:11px;
+  padding: 3px 5px 5px 5px;
+}
+
+span.advertisement {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    color: #ddd;
+    width: 100%;
+    background: #000;
+    margin: 0;
+    text-align: left;
+    padding-left: 12px;
+}
